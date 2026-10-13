@@ -183,7 +183,7 @@ h1 em, h2 em { font-style: italic; font-weight: 400; color: var(--taupe); }
 .about__visual { position: relative; }
 .about__visual img { width: 100%; aspect-ratio: 9 / 11; object-fit: cover; border-radius: 240px 240px var(--radius) var(--radius); }
 .about__badge {
-  position: absolute; right: -18px; bottom: 36px;
+  position: absolute; left: -18px; bottom: 36px;
   display: grid; place-content: center; width: 148px; height: 148px;
   border-radius: 50%; background: var(--taupe); color: var(--white); text-align: center;
   box-shadow: var(--shadow);
@@ -496,7 +496,7 @@ h1 em, h2 em { font-style: italic; font-weight: 400; color: var(--taupe); }
   .hero__visual { width: min(82%, 440px); margin-top: 24px; }
   .hero__card { left: -8%; }
   .about__visual { max-width: 420px; margin-inline: auto; }
-  .about__badge { right: -8px; }
+  .about__badge { left: -8px; }
   .deroule__visual { max-width: 460px; margin-inline: auto; order: -1; }
   .band__inner { grid-template-columns: repeat(2, 1fr); gap: 40px 24px; }
   .footer__inner { grid-template-columns: 1fr 1fr; }
